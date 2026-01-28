@@ -34,29 +34,11 @@ export default function Home() {
               backgroundClip: "text",
             }}
           >
-            Welcome to Webflow Cloud
+            Welcome to Clauth
           </h1>
           <Block tag="p" className="margin-bottom-24px">
             This is a simple test using Basic components with enhanced styling.
           </Block>
-          <div style={{ marginTop: "12px" }}>
-            <Link
-              button={true}
-              options={{
-                href: "https://developers.webflow.com/webflow-cloud/getting-started",
-              }}
-              className="button-primary"
-              style={{
-                borderRadius: "4px",
-                background: "#146ef5",
-                color: "#ffffff",
-                boxShadow:
-                  "0px 0.5px 1px rgba(0, 0, 0, 0.25), inset 0px 29px 23px -16px rgba(255, 255, 255, 0.04), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.2)",
-              }}
-            >
-              Get Started
-            </Link>
-          </div>
         </Block>
       </Block>
     </Section>
